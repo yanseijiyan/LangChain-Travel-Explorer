@@ -1,0 +1,6 @@
+tavily-python
+langchainhub
+python-dotenv
+langchain
+langchain-openai
+langchain-community
