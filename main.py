@@ -8,7 +8,7 @@ def main():
     # Add inputs for the user to enter their travel details
     origin = st.text_input('Where are you traveling from?') 
     destination = st.text_input('Which destination would you like to travel to?')
-    budget = st.number_input('What is your budget for the trip?', min_value=100, max_value=10000, value=1000)  # Alterado para number_input para permitir entrada de valores exatos
+    budget = st.number_input('What is your budget for the trip?', min_value=100, max_value=10000, value=1000)  
     interests = st.multiselect('What kind of activities interest you?', 
                                ['Culture', 'Adventure', 'Relaxation', 'Gastronomy', 'Sports'])
 
